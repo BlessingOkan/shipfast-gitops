@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: shipfast-status-config
+  namespace: shipfast
+data:
+  APP_ENV: "production"
